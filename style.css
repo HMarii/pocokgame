@@ -1,0 +1,46 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #00FFFF;
+}
+h1 {
+	text-align: center;
+	padding: auto;
+	margin: auto;
+}
+
+
+
+
+.centerize {
+text-align: center;
+}
+
+
+.grid {
+	height: 400px;
+	width: 400px;
+	display: flex; /* Inline kockák */
+	flex-wrap: wrap;
+	background-color: gray;
+	margin:auto;
+	padding: auto;
+	margin-top:15px;
+
+}
+
+.grid div {
+	height: 40px;
+	width: 40px;
+}
+
+/*.bomb {
+	background-color: orange;
+}*/
+
+.checked {
+	background-color: red;
+}
